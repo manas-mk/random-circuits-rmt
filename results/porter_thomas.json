@@ -1,0 +1,76 @@
+{
+  "settings": {
+    "circuits": 100,
+    "max_depth": 40,
+    "haar_states": 2000,
+    "seed": 2026,
+    "plot_only": false,
+    "qubits": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14
+    ],
+    "pass_level": 0.9
+  },
+  "haar_null": {
+    "4": {
+      "ks_95th_percentile": 0.25868045794558153,
+      "collision_mean": 1.880513491861719,
+      "collision_theory": 1.8823529411764706,
+      "hop_mean": 0.8310514926446101
+    },
+    "6": {
+      "ks_95th_percentile": 0.13339277661786636,
+      "collision_mean": 1.9787094389201971,
+      "collision_theory": 1.9692307692307693,
+      "hop_mean": 0.8435067730537957
+    },
+    "8": {
+      "ks_95th_percentile": 0.06703812548964952,
+      "collision_mean": 1.99301617199575,
+      "collision_theory": 1.9922178988326849,
+      "hop_mean": 0.8454763942003387
+    },
+    "10": {
+      "ks_95th_percentile": 0.03458718156374324,
+      "collision_mean": 1.999438652477697,
+      "collision_theory": 1.9980487804878049,
+      "hop_mean": 0.8464526547040786
+    },
+    "12": {
+      "ks_95th_percentile": 0.017125004524787844,
+      "collision_mean": 1.999031570808394,
+      "collision_theory": 1.9995118379301928,
+      "hop_mean": 0.8464651840774368
+    },
+    "14": {
+      "ks_95th_percentile": 0.008387453714913956,
+      "collision_mean": 1.999561186188237,
+      "collision_theory": 1.9998779371376258,
+      "hop_mean": 0.8465237624042532
+    }
+  },
+  "convergence_depth_ks": {
+    "4": 4,
+    "6": 11,
+    "8": 18,
+    "10": 23,
+    "12": 30,
+    "14": 39
+  },
+  "convergence_fit_ks": {
+    "slope_per_qubit": 3.3857142857142852,
+    "intercept": -9.638095238095222
+  },
+  "convergence_depth_collision": {
+    "4": 7,
+    "6": 12,
+    "8": 17,
+    "10": 21,
+    "12": 23,
+    "14": 26
+  }
+}

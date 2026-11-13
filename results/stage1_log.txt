@@ -1,0 +1,22 @@
+n=4: 17 s
+n=6: 27 s
+n=8: 38 s
+n=10: 53 s
+n=12: 89 s
+n=14: 187 s
+
+Convergence depth (first depth where >= 90% of circuits pass):
+  n= 4: depth 4
+  n= 6: depth 11
+  n= 8: depth 18
+  n=10: depth 23
+  n=12: depth 30
+  n=14: depth 39
+  linear fit: depth = 3.39 * n + -9.64
+Depth where mean collision ratio is within 5% of Haar:
+  n= 4: depth 7
+  n= 6: depth 12
+  n= 8: depth 17
+  n=10: depth 21
+  n=12: depth 23
+  n=14: depth 26
